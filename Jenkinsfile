@@ -8,7 +8,7 @@ pipeline {
     AWS_REGION = 'eu-west-1'
     AWS_CA_DOMAIN = 'akhamessi-jenkins-domain'
     AWS_CA_REPO = 'akhamessi-jenkins-repo'
-    AWS_STACK_NAME = 'consumer'
+    AWS_STACK_NAME = 'Consumer'
     CONTAINER_NAME = 'application'
     CREDENTIALS_ID = 'aws' 
   }
