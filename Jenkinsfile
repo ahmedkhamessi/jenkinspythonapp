@@ -9,7 +9,7 @@ pipeline {
     AWS_CA_DOMAIN = 'akhamessi-jenkins-domain'
     AWS_CA_REPO = 'akhamessi-jenkins-repo'
     AWS_STACK_NAME = 'consumer'
-    CONTAINER_NAME = 'myconsumer'
+    CONTAINER_NAME = 'application'
     CREDENTIALS_ID = 'aws' 
   }
   stages {
